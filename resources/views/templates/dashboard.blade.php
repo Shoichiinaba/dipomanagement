@@ -293,8 +293,8 @@
                                             <ul class="sidebar-submenu">
                                                 <li><a href="{{ url('/absen') }}">Absen</a></li>
                                                 <li><a href="{{ url('/data-absen') }}">Data Absen</a></li>
-                                                <li><a href="{{ url('/dinas-luar') }}">Absen Dinas Luar</a></li>
-                                                <li><a href="{{ url('/data-dinas-luar') }}">Data Dinas Luar</a></li>
+                                                <!-- <li><a href="{{ url('/dinas-luar') }}">Absen Dinas Luar</a></li>
+                                                <li><a href="{{ url('/data-dinas-luar') }}">Data Dinas Luar</a></li> -->
                                             </ul>
                                         </li>
 

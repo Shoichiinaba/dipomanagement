@@ -750,7 +750,7 @@
                         </a>
                     </li> -->
 
-                    <li>
+                    <!-- <li>
                         <a href="{{ url('/pengajuan-absensi') }}">
                             <div class="icon-box bg_color_6">
                                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
@@ -772,7 +772,7 @@
                             </div>
                             Pengajuan Absensi
                         </a>
-                    </li>
+                    </li> -->
 
                     <li>
                         <a href="{{ url('/reimbursement') }}">
@@ -815,7 +815,7 @@
                         </a>
                     </li>
 
-                    <li>
+                    <!-- <li>
                         <a href="{{ url('/pengajuan-keuangan') }}">
                             <div class="icon-box bg_color_7">
                                 <svg style="width: 30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
@@ -851,7 +851,7 @@
                             </div>
                             Pengajuan Keuangan
                         </a>
-                    </li>
+                    </li> -->
 
                     <!-- <li>
                         <a href="{{ url('/kunjungan') }}">
@@ -956,7 +956,7 @@
                         </a>
                     </li> -->
 
-                    <li>
+                    <!-- <li>
                         <a href="{{ url('/penugasan-kerja') }}">
                             <div class="icon-box bg_service-2">
                                 <svg version="1.1" id="Layer_1" style="width: 30px" xmlns="http://www.w3.org/2000/svg"
@@ -1066,9 +1066,9 @@
                             </div>
                             Penugasan
                         </a>
-                    </li>
+                    </li> -->
 
-                    <li>
+                    <!-- <li>
                         <a href="{{ url('/rapat-kerja') }}">
                             <div class="icon-box bg_service-6">
                                 <svg fill="#000000" style="width: 30px" version="1.1" id="Capa_1"
@@ -1125,9 +1125,9 @@
                             </div>
                             Rapat Kerja
                         </a>
-                    </li>
+                    </li> -->
 
-                    <li>
+                    <!-- <li>
                         <a href="{{ url('/inventory') }}">
                             <div class="icon-box bg_service-2">
                                 <svg version="1.1" id="Layer_1" style="width: 30px" xmlns="http://www.w3.org/2000/svg"
@@ -1252,7 +1252,7 @@
                             </div>
                             Inventory
                         </a>
-                    </li>
+                    </li> -->
 
                     <!-- <li>
                         <a href="{{ url('/exit') }}">
