@@ -25,13 +25,32 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
+
+
+    // public function boot()
+    // {
+    //     Schema::defaultStringLength(191);
+    //     Gate::define('admin', function (User $user) {
+    //         return $user->is_admin === 'admin';
+    //     });
+
+    //     Paginator::useBootstrap();
+    // }
+
     public function boot()
     {
         Schema::defaultStringLength(191);
+
         Gate::define('admin', function (User $user) {
             return $user->is_admin === 'admin';
         });
 
         Paginator::useBootstrap();
+
+        // FIX PUBLIC PATH UNTUK SHARED HOSTING
+        $this->app->bind('path.public', function() {
+            return base_path('../public_html/dipomanagement.wisdil.com');
+        });
     }
+
 }
